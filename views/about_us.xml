@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="elearning_about_us" name="About Hero">
+        <!-- About Hero -->
+        <section class="about-hero">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Empowering Learners. Everywhere. Since 2010</p>
+            </div>
+        </section>
+    </template>
+</odoo>

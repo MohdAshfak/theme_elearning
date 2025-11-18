@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="elearning_team" name="Teams">
+        <!--        Team-->
+        <section class="py-5">
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="section-heading text-center mb-5">
+                        <span class="section-eyebrow text-uppercase">Instructors</span>
+                        <h2 class="section-title mb-3">Expert Instructors</h2>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item bg-light">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="/theme_elearning/static/src/img/team-1.jpg"
+                                         alt=""/>
+                                </div>
+                                <div class="position-relative d-flex justify-content-center"
+                                     style="margin-top: -23px;">
+                                    <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <h5 class="mb-0">Instructor Name</h5>
+                                    <small>Designation</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-item bg-light">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="/theme_elearning/static/src/img/team-2.jpg"
+                                         alt=""/>
+                                </div>
+                                <div class="position-relative d-flex justify-content-center"
+                                     style="margin-top: -23px;">
+                                    <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <h5 class="mb-0">Instructor Name</h5>
+                                    <small>Designation</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-item bg-light">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="/theme_elearning/static/src/img/team-3.jpg"
+                                         alt=""/>
+                                </div>
+                                <div class="position-relative d-flex justify-content-center"
+                                     style="margin-top: -23px;">
+                                    <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <h5 class="mb-0">Instructor Name</h5>
+                                    <small>Designation</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item bg-light">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="/theme_elearning/static/src/img/team-4.jpg"
+                                         alt=""/>
+                                </div>
+                                <div class="position-relative d-flex justify-content-center"
+                                     style="margin-top: -23px;">
+                                    <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn btn-sm-square btn-primary mx-1" href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <h5 class="mb-0">Instructor Name</h5>
+                                    <small>Designation</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
+

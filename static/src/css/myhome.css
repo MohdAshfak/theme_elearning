@@ -1,0 +1,581 @@
+/* ============================================
+   My Account Page Styles - FoodMart Theme
+   Modern, clean styling for portal home page
+   ============================================ */
+
+/* Main Container */
+.o_portal_my_home {
+    padding: 0;
+}
+
+/* ============================================
+   Page Title
+   ============================================ */
+
+.o_portal_wrap .wrapper h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.2;
+}
+
+/* ============================================
+   Account Cards (Your Orders, Your Invoices, etc.)
+   ============================================ */
+
+.o_portal_docs {
+    margin-top: 1.5rem;
+}
+
+.o_portal_category {
+    margin-bottom: 1.5rem;
+}
+
+/* Card Container */
+.o_portal_index_card {
+    margin-bottom: 1rem;
+}
+
+/* Card Link */
+.o_portal_index_card > a {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 200ms ease;
+    height: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.o_portal_index_card > a:hover {
+    border-color: #7b3f94;
+    box-shadow: 0 4px 12px rgba(123, 63, 148, 0.15);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.o_portal_index_card > a:focus {
+    outline: 2px solid #7b3f94;
+    outline-offset: 2px;
+}
+
+/* Card Icon */
+.o_portal_icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #f3f4f6;
+}
+
+.o_portal_icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* Card Content */
+.o_portal_index_card > a > div:last-child {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Card Title */
+.o_portal_index_card > a > div:last-child > div:first-child {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.o_portal_index_card > a > div:last-child > div:first-child span {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Card Description */
+.o_portal_index_card > a > div:last-child > div:last-child {
+    font-size: 0.9375rem;
+    color: #6b7280;
+    line-height: 1.5;
+    opacity: 1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Alert-style cards (e.g., Quotations to review) */
+.o_portal_index_card > a.alert {
+    border: 1px solid #bfdbfe;
+    background: #eff6ff;
+}
+
+.o_portal_index_card > a.alert:hover {
+    border-color: #3b82f6;
+    background: #dbeafe;
+}
+
+.o_portal_index_card > a.alert .alert-link {
+    color: #1e40af;
+    font-weight: 600;
+}
+
+/* ============================================
+   User Profile Section (Right Sidebar)
+   ============================================ */
+
+/* Side Content Container */
+.o_portal_content + .d-none.d-lg-flex,
+.offcanvas-body,
+.mw-100 {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* User Avatar and Name Section */
+.d-flex.justify-content-start.align-items-start.gap-3 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.o_portal_contact_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    object-fit: cover;
+    background: #f3f4f6;
+    border: 2px solid #e5e7eb;
+}
+
+.d-flex.flex-column.justify-content-center h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.d-flex.flex-column.justify-content-center p {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* User Details Section */
+.o_portal_my_details {
+    margin-bottom: 1rem;
+}
+
+.o_portal_my_details .d-flex {
+    margin-bottom: 0.75rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.o_portal_my_details .d-flex:last-child {
+    margin-bottom: 0;
+}
+
+.o_portal_my_details i {
+    color: #6b7280;
+    font-size: 1rem;
+    width: 20px;
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+}
+
+.o_portal_my_details .text-muted,
+.o_portal_my_details address {
+    font-size: 0.9375rem;
+    color: #374151;
+    line-height: 1.6;
+    font-style: normal;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.o_portal_my_details a {
+    color: #374151;
+    text-decoration: none;
+    transition: color 150ms ease;
+}
+
+.o_portal_my_details a:hover {
+    color: #7b3f94;
+    text-decoration: none;
+}
+
+/* Edit Information Link */
+a[href="/my/account"].btn-link {
+    color: #7b3f94;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 150ms ease;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+a[href="/my/account"].btn-link:hover {
+    color: #6a2d7a;
+    text-decoration: none;
+}
+
+a[href="/my/account"].btn-link:focus {
+    outline: 2px solid #7b3f94;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+a[href="/my/account"].btn-link i {
+    font-size: 0.875rem;
+}
+
+/* Contact Section */
+.o_my_contact {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* ============================================
+   Layout & Spacing
+   ============================================ */
+
+/* Main Content Area */
+.o_portal_content {
+    padding-right: 2rem;
+}
+
+/* Responsive Grid */
+.o_portal_docs .row {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.o_portal_docs .row > * {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+
+/* Tablet and below */
+@media (max-width: 991px) {
+    .o_portal_wrap .wrapper h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .o_portal_content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .o_portal_index_card > a {
+        padding: 1.25rem;
+    }
+
+    .o_portal_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .o_portal_icon img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .o_portal_wrap .wrapper h3 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .o_portal_index_card {
+        margin-bottom: 0.75rem;
+    }
+
+    .o_portal_index_card > a {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+
+    .o_portal_icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .o_portal_icon img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .o_portal_index_card > a > div:last-child > div:first-child {
+        font-size: 1rem;
+    }
+
+    .o_portal_index_card > a > div:last-child > div:last-child {
+        font-size: 0.875rem;
+    }
+
+    .o_portal_contact_img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .d-flex.flex-column.justify-content-center h5 {
+        font-size: 1.125rem;
+    }
+}
+
+/* ============================================
+   Loading Spinner
+   ============================================ */
+
+.o_portal_doc_spinner {
+    margin: 2rem auto;
+    color: #7b3f94;
+}
+
+/* ============================================
+   Empty State
+   ============================================ */
+
+.o_portal_my_home .alert {
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    color: #6b7280;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+
+/* ============================================
+   Accessibility
+   ============================================ */
+
+/* Focus states */
+.o_portal_index_card > a:focus-visible,
+a[href="/my/account"].btn-link:focus-visible {
+    outline: 2px solid #7b3f94;
+    outline-offset: 2px;
+}
+
+/* High contrast support */
+@media (prefers-contrast: high) {
+    .o_portal_index_card > a {
+        border-width: 2px;
+    }
+
+    .o_portal_index_card > a:hover {
+        border-width: 2px;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .o_portal_index_card > a,
+    a[href="/my/account"].btn-link {
+        transition: none;
+    }
+
+    .o_portal_index_card > a:hover {
+        transform: none;
+    }
+}
+
+/* ============================================
+   Homepage Services Section Animations
+   ============================================ */
+.services-section .service-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 600ms ease, transform 600ms ease, box-shadow 250ms ease, border-color 200ms ease, background-color 200ms ease;
+    will-change: opacity, transform;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+/* ============================================
+   Homepage Categories Section Animations
+   ============================================ */
+.categories-section .category-card {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+    transition: opacity 550ms ease, transform 550ms ease, box-shadow 250ms ease;
+    will-change: opacity, transform;
+    border-radius: 12px;
+}
+
+/* ============================================
+   Homepage Courses Section Animations
+   ============================================ */
+.courses-section .course-card {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 600ms ease, transform 600ms ease, box-shadow 250ms ease;
+    will-change: opacity, transform;
+    border-radius: 14px;
+}
+
+.courses-section .course-card.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.courses-section .course-card:hover,
+.courses-section .course-card:focus-within {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+}
+
+.courses-section .row.g-4 > [class*="col-"]:nth-child(1) .course-card { transition-delay: 80ms; }
+.courses-section .row.g-4 > [class*="col-"]:nth-child(2) .course-card { transition-delay: 160ms; }
+.courses-section .row.g-4 > [class*="col-"]:nth-child(3) .course-card { transition-delay: 240ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .courses-section .course-card {
+        transition: none;
+        opacity: 1;
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+/* ============================================
+   Mobile Button Alignment Fixes
+   ============================================ */
+@media (max-width: 576px) {
+    /* Hero primary actions: stack and full-width on mobile */
+    .elearn-hero .d-flex.gap-3 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem !important;
+    }
+    .elearn-hero .elearn-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Courses overlay buttons: stack neatly and fill width */
+    .courses-section .course-item .position-relative .d-flex {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+        padding: 0 0.75rem;
+    }
+    .courses-section .course-item .position-relative .d-flex a {
+        border-radius: 8px !important;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.categories-section .category-card.in-view {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Hover lift and subtle shadow */
+.categories-section .category-card:hover,
+.categories-section .category-card:focus-visible {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+}
+
+/* Stagger timings */
+.categories-section .row.g-3 > [class*="col-"] .category-card { transition-delay: 60ms; }
+.categories-section .row.g-3 > [class*="col-"]:nth-child(2) .category-card { transition-delay: 140ms; }
+.categories-section .row.g-3 > [class*="col-"]:nth-child(3) .category-card { transition-delay: 220ms; }
+.categories-section .row.g-3 > [class*="col-"]:nth-child(4) .category-card { transition-delay: 300ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .categories-section .category-card {
+        transition: none;
+        opacity: 1;
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+.services-section .service-item.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Card content spacing refinement */
+.services-section .service-item .p-4 {
+    padding: 1.5rem !important;
+}
+
+/* Card hover and focus interactions */
+.services-section .service-item:hover,
+.services-section .service-item:focus-within {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-color: #d0b6db;
+}
+
+/* Icon and title transitions */
+.services-section .service-item i {
+    transition: color 250ms ease, transform 250ms ease, text-shadow 250ms ease;
+}
+
+.services-section .service-item:hover i,
+.services-section .service-item:focus-within i {
+    color: #0F5C96 !important;
+    transform: scale(1.06);
+    text-shadow: 0 6px 18px rgba(123, 63, 148, 0.25);
+}
+
+.services-section .service-item h5 {
+    transition: color 200ms ease;
+}
+
+.services-section .service-item:hover h5,
+.services-section .service-item:focus-within h5 {
+    color: #1f2937;
+}
+
+/* Staggered effect */
+.services-section .row.g-4 > [class*="col-"]:nth-child(1) .service-item { transition-delay: 60ms; }
+.services-section .row.g-4 > [class*="col-"]:nth-child(2) .service-item { transition-delay: 140ms; }
+.services-section .row.g-4 > [class*="col-"]:nth-child(3) .service-item { transition-delay: 220ms; }
+.services-section .row.g-4 > [class*="col-"]:nth-child(4) .service-item { transition-delay: 300ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .services-section .service-item {
+        transition: none;
+        opacity: 1;
+        transform: none;
+        box-shadow: none;
+    }
+}
+

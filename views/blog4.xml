@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog4" name="Blog 4">
+       <!-- Blog Grid Section -->
+<section class="blog-grid-section">
+    <div class="container">
+        <div class="blog-header">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active">All Posts</button>
+                <button class="filter-btn">Most Recent</button>
+                <button class="filter-btn">Most Popular</button>
+                <button class="filter-btn">Trending</button>
+            </div>
+        </div>
+
+        <div class="blog-grid">
+            <!-- Blog Card 1 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Study Tips</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 16, 2025</span>
+                        <span class="blog-read-time">5 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">10 Proven Techniques to Boost Your Memory Retention</h3>
+                    <p class="blog-card-excerpt">Learn science-backed methods to improve your ability to remember and recall information effectively.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=2" alt="Author"/>
+                            <span>Michael Chen</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 2 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Technology</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 14, 2025</span>
+                        <span class="blog-read-time">7 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">How AI is Personalizing Your Learning Experience</h3>
+                    <p class="blog-card-excerpt">Explore how artificial intelligence adapts to your learning style and creates custom education paths.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=3" alt="Author"/>
+                            <span>Emma Rodriguez</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 3 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Career Advice</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 13, 2025</span>
+                        <span class="blog-read-time">6 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">From Student to Professional: Navigating Your Career Transition</h3>
+                    <p class="blog-card-excerpt">Essential tips and strategies for making a smooth transition from academic life to your professional career.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=4" alt="Author"/>
+                            <span>David Park</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 4 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Productivity</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 12, 2025</span>
+                        <span class="blog-read-time">4 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">The Pomodoro Technique: Maximize Your Study Sessions</h3>
+                    <p class="blog-card-excerpt">Discover how this time management method can transform your productivity and learning efficiency.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=5" alt="Author"/>
+                            <span>Lisa Thompson</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 5 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Success Stories</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 11, 2025</span>
+                        <span class="blog-read-time">8 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">How Jane Went from Beginner to Senior Developer in 18 Months</h3>
+                    <p class="blog-card-excerpt">An inspiring journey of dedication, strategic learning, and career transformation in tech.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=6" alt="Author"/>
+                            <span>Alex Kumar</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 6 -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600" alt="Blog Post"/>
+                    <span class="blog-category-badge">Learning Science</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 10, 2025</span>
+                        <span class="blog-read-time">6 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">Understanding Spaced Repetition for Long-Term Learning</h3>
+                    <p class="blog-card-excerpt">The science behind why reviewing material at increasing intervals leads to better retention.</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-author">
+                            <img src="https://i.pravatar.cc/150?img=7" alt="Author"/>
+                            <span>Dr. Rachel Green</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="pagination">
+            <button class="pagination-btn">← Previous</button>
+            <button class="pagination-num active">1</button>
+            <button class="pagination-num">2</button>
+            <button class="pagination-num">3</button>
+            <button class="pagination-num">4</button>
+            <button class="pagination-btn">Next →</button>
+        </div>
+    </div>
+</section>
+
+    </template>
+</odoo>

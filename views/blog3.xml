@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog3" name="Blog 3">
+        <!-- Blog Categories Section -->
+        <section class="blog-categories">
+            <div class="container">
+                <h2 class="section-title">Browse by Category</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">📚</div>
+                        <h3>Study Tips</h3>
+                        <p>24 Articles</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">💻</div>
+                        <h3>Technology</h3>
+                        <p>18 Articles</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🎓</div>
+                        <h3>Career Advice</h3>
+                        <p>32 Articles</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🚀</div>
+                        <h3>Success Stories</h3>
+                        <p>15 Articles</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🧠</div>
+                        <h3>Learning Science</h3>
+                        <p>21 Articles</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🌟</div>
+                        <h3>Productivity</h3>
+                        <p>27 Articles</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </template>
+</odoo>

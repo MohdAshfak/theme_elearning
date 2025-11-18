@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog5" name="Blog 5">
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-icon">📧</div>
+                    <h2 class="newsletter-title">Stay Updated with Our Latest Articles</h2>
+                    <p class="newsletter-subtitle">Join 50,000+ learners receiving weekly insights, tips, and exclusive
+                        content
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" class="newsletter-input"/>
+                        <button type="submit" class="newsletter-btn">Subscribe Now</button>
+                    </form>
+                    <p class="newsletter-privacy">We respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

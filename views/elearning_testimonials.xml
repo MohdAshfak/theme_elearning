@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="elearning_testimonials" name="Testimonials">
+        <!-- Testimonials Section -->
+        <section class="py-5 testimonials-section">
+            <div class="container-xxl">
+                <div class="container">
+                    <div class="section-heading text-center mb-5">
+                        <span class="section-eyebrow text-uppercase">Testimonials</span>
+                        <h2 class="section-title mb-3">Our Students Say!</h2>
+                        <p class="section-description mx-auto">Hear from learners who already transformed their
+                            career with our online courses.
+                        </p>
+                    </div>
+                    <div class="testimonial-carousel" data-testimonial-slider="1">
+                        <button class="testimonial-nav prev" type="button" aria-label="Previous testimonial">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="15 18 9 12 15 6"/>
+                            </svg>
+                        </button>
+                        <div class="testimonial-viewport">
+                            <div class="testimonial-track">
+                                <article class="testimonial-card">
+                                    <div class="testimonial-avatar">
+                                        <img src="/theme_elearning/static/src/img/testimonial-1.jpg"
+                                             alt="Sophia Ellis"/>
+                                    </div>
+                                    <h3 class="testimonial-name">Sophia Ellis</h3>
+                                    <p class="testimonial-role">Product Designer</p>
+                                    <p class="testimonial-quote">“The classes are extremely well structured and
+                                        the mentors are always there to guide you. I landed my new job just two
+                                        weeks after graduating.”
+                                    </p>
+                                </article>
+                                <article class="testimonial-card">
+                                    <div class="testimonial-avatar">
+                                        <img src="/theme_elearning/static/src/img/testimonial-2.jpg"
+                                             alt="Liam Patel"/>
+                                    </div>
+                                    <h3 class="testimonial-name">Liam Patel</h3>
+                                    <p class="testimonial-role">Full Stack Developer</p>
+                                    <p class="testimonial-quote">“I loved the hands-on projects. They feel like
+                                        real work experience and helped me build a portfolio I’m proud to
+                                        showcase.”
+                                    </p>
+                                </article>
+                                <article class="testimonial-card">
+                                    <div class="testimonial-avatar">
+                                        <img src="/theme_elearning/static/src/img/testimonial-3.jpg"
+                                             alt="Amelia Chen"/>
+                                    </div>
+                                    <h3 class="testimonial-name">Amelia Chen</h3>
+                                    <p class="testimonial-role">Marketing Strategist</p>
+                                    <p class="testimonial-quote">“The instructors are amazing storytellers. I
+                                        appreciate how they blend theory with stories and real-life examples.”
+                                    </p>
+                                </article>
+                                <article class="testimonial-card">
+                                    <div class="testimonial-avatar">
+                                        <img src="/theme_elearning/static/src/img/testimonial-4.jpg"
+                                             alt="Noah Martinez"/>
+                                    </div>
+                                    <h3 class="testimonial-name">Noah Martinez</h3>
+                                    <p class="testimonial-role">Data Analyst</p>
+                                    <p class="testimonial-quote">“From data visualization to machine learning,
+                                        the courses covered everything I needed to accelerate my analytics
+                                        career.”
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        <button class="testimonial-nav next" type="button" aria-label="Next testimonial">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"/>
+                            </svg>
+                        </button>
+                        <div class="testimonial-dots" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials End -->
+    </template>
+</odoo>
+

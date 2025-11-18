@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="elearning_snippets" inherit_id="website.snippets">
+        <xpath expr="//snippets[@id='snippet_structure']" position="after">
+
+            <snippets class="o_panel_body" string="Home">
+                <t t-snippet="theme_elearning.elearning_sub_content"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.elearning_courses_content"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.elearning_about"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.eleraning_courses_categories"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.elearning_team"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.elearning_testimonials"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.elearning_about_us"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.course_hero"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.contact_us"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.map"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog2"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog3"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog4"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog5"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+                <t t-snippet="theme_elearning.blog6"
+                   t-thumbnail="/theme_elearning/static/src/img/Xapp_logo.JPG"/>
+
+            </snippets>
+
+        </xpath>
+    </template>
+</odoo>

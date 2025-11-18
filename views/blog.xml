@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog" name="Blog">
+
+
+        <!-- Blog Hero Section -->
+        <section class="blog-hero">
+            <div class="container">
+                <div class="blog-hero-content">
+                    <span class="blog-badge">LEARNING INSIGHTS</span>
+                    <h1 class="blog-hero-title">Explore Our Educational Blog</h1>
+                    <p class="blog-hero-subtitle">Discover articles, tips, and insights to enhance your learning
+                        journey
+                    </p>
+                    <div class="blog-search">
+                        <input type="text" placeholder="Search articles, topics, categories..." class="search-input"/>
+                        <button class="search-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

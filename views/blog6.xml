@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog6" name="Blog 6">
+
+<!-- Trending Topics Section -->
+<section class="trending-topics">
+    <div class="container">
+        <h2 class="section-title">Trending Topics</h2>
+        <div class="topics-cloud">
+            <a href="#" class="topic-tag">Online Learning</a>
+            <a href="#" class="topic-tag">AI Education</a>
+            <a href="#" class="topic-tag">Study Hacks</a>
+            <a href="#" class="topic-tag">Career Growth</a>
+            <a href="#" class="topic-tag">Time Management</a>
+            <a href="#" class="topic-tag">Skill Development</a>
+            <a href="#" class="topic-tag">Remote Learning</a>
+            <a href="#" class="topic-tag">EdTech</a>
+            <a href="#" class="topic-tag">Motivation</a>
+            <a href="#" class="topic-tag">Certification</a>
+            <a href="#" class="topic-tag">Learning Strategies</a>
+            <a href="#" class="topic-tag">Personal Growth</a>
+        </div>
+    </div>
+</section>
+    </template>
+</odoo>

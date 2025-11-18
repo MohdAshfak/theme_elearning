@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog2" name="Blog 2">
+        <!-- Featured Article Section -->
+        <section class="featured-article">
+            <div class="container">
+                <div class="featured-grid">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+                             alt="Featured Article"/>
+                        <span class="featured-tag">Featured</span>
+                    </div>
+                    <div class="featured-content">
+                        <div class="article-meta">
+                            <span class="category">Educational Technology</span>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                        <h2 class="featured-title">The Future of Online Learning: Trends Shaping Education in 2025</h2>
+                        <p class="featured-excerpt">Discover how AI, personalized learning paths, and immersive
+                            technologies are revolutionizing the way we learn online. Explore the latest trends...
+                        </p>
+                        <div class="author-info">
+                            <img src="https://i.pravatar.cc/150?img=1" alt="Author" class="author-avatar"/>
+                            <div class="author-details">
+                                <span class="author-name">Sarah Johnson</span>
+                                <span class="publish-date">November 15, 2025</span>
+                            </div>
+                        </div>
+                        <a href="#" class="read-more-btn">Read Full Article →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
