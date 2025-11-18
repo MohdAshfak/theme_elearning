@@ -21,7 +21,7 @@ tutors, training institutes, coaching platforms, and professional learning busin
    """,
     'license': 'OPL-1',
     'support': 'teamxapp.dev@gmail.com',
-    'price': 39.11,
+    'price': 49.11,
     'currency': 'USD',
 
     'depends': [
