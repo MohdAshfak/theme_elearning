@@ -7,6 +7,7 @@
     'depends': [
         'website',
         'web_editor',
+        'crm',
     ],
 
     'data': [
@@ -49,7 +50,7 @@
 
     ],
 
-
+    'live_test_url': 'http://13.60.52.65:8071',
     'installable': True,
     'auto_install': False,
     'application': False,
